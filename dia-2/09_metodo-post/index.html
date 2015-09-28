@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo Método POST</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>Método POST</h2>
+	<form action="procesar.php" method="POST" >
+	  	Ingrese su Nombre: 
+	  	<input type="text" name="nombre" /><br>
+	  	Ingrese su Apellido:
+	  	<input type="text" name="apellido"><br>
+	  	
+    	<input type="submit" value="Enviar" />  
+	</form>
+
+	<h4>Algunas características del método POST:</h4>
+    <li>
+    	<ol>No tiene ninguna restricción de tamaño.</ol>
+    	<ol>Acepta caracteres ASCII y datos binarios.</ol>
+    	<ol>Si se usa bajo el protocolo HTPPS entonces los datos viajan de manera segura.</ol>
+    </li>
+
+    <h2>Otro Ejemplo (Datos Binarios)</h2>	    
+    <form enctype="multipart/form-data" action="subir.php" method="POST" >
+  		Archivo: <input name="archivo" type="file" />
+      	<input type="submit" value="Enviar" />
+  	</form >
+</body>
+</html>	

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo Método GET</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>Método GET</h2>
+	<form action="procesar.php" method="GET" >
+	  	Ingrese su Nombre: 
+	  	<input type="text" name="nombre" /><br>
+	  	Ingrese su Apellido:
+	  	<input type="text" name="apellido"><br>
+	  	
+    	<input type="submit" value="Enviar" />  
+	</form >
+
+	<br>
+	<a href="procesar.php?nombre=Luis&apellido=Alamo">Otro Ejemplo</a>
+
+	<h4>Algunas características del método GET:</h4>
+    <li>
+    	<ol>Produce una gran cadena de nombres/valores que se concatena al final del nombre de la página.</ol>
+    	<ol>Tiene una longitud máxima de 2048 caracteres.</ol>
+    	<ol>No es correcto pasar información sensible como contraseñas por GET.</ol>
+    	<ol>No sirve para enviar información binaria como documentos o documentos, solo acepta caracteres ASCII.</ol>
+    	<ol>La información enviada por GET es visible por todo el mundo.</ol>
+    </li>	
+</body>
+</html>	

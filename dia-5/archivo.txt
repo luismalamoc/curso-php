@@ -1,0 +1,4 @@
+PHP es un lenguaje de programación de uso general que funciona del lado del servidor,
+Fue creado originalmente por Rasmus Lerdorf en 1995.
+Php es un acrónimo recursivo que significa PHP Hypertext Pre-processor.
+Es utilizado en millones de sitios; entre los más destacados se encuentran Wikipedia.org, Facebook.com y Wordpress.com.
